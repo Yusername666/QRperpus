@@ -1,0 +1,58 @@
+	.well {
+		position: relative;
+		display: inline-block;
+	}
+	.scanner-laser {
+		position: absolute;
+		margin: 40px;
+		height: 30px;
+		width: 30px;
+		opacity: 0.5;
+	}
+
+	.laser-leftTop {
+		top: 0;
+		left: 0;
+		border-top: solid red 5px;
+		border-left: solid red 5px;
+	}
+
+	.laser-leftBottom {
+		bottom: 0;
+		left: 0;
+		border-bottom: solid red 5px;
+		border-left: solid red 5px;
+	}
+
+	.laser-rightTop {
+		top: 0;
+		right: 0;
+		border-top: solid red 5px;
+		border-right: solid red 5px;
+	}
+
+	.laser-rightBottom {
+		bottom: 0;
+		right: 0;
+		border-bottom: solid red 5px;
+		border-right: solid red 5px;
+	}
+
+	#webcodecam-canvas {
+		background-color: #272822;
+	}
+	#scanned-QR{
+		word-break: break-word;
+	}
+	#webcodecam-canvas, #scanned-img {
+		background-color: #2d2d2d;
+	}
+	#myBtn {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 30px;
+		z-index: 99;
+		cursor: pointer;
+		padding: 15px;
+	}
